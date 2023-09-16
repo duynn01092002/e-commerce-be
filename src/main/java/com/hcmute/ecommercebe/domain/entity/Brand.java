@@ -10,7 +10,7 @@ import java.util.UUID;
 @Table(name="tbl_brand")
 public class Brand {
     @Id
-    private String Id = UUID.randomUUID().toString();
+    private String id = UUID.randomUUID().toString();
 
     @Column(name="name")
     private String name;
